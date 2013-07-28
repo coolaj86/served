@@ -24,6 +24,9 @@ Note: If `/path/to/serve` can be loaded as a connect module with `require()`, it
 
     served 5555 /path/to/myapp.js
 
+**Note**: Due to connectjs' security policy, you may not use relative paths to parent directories `../`!
+Use either absolute or child-relative paths.
+
 Receiving Files
 ---
 
