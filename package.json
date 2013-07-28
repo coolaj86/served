@@ -2,7 +2,7 @@
   "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.com/)",
   "name": "served",
   "description": "Standalone One-Liner HTTP Webserver for Node.JS that also handles media streaming and allows uploads",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/coolaj86/served.git"
