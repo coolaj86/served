@@ -1,9 +1,11 @@
 You Got ServeD!
 ===
 
-Standalane one-liner HTTP webserver for NodeJS
+`served` is a stand-alane command-line webserver
 
-Equivalent of `python -m SimpleHTTPServer 3000` except that `served` also handles POSTed files.
+Think `python -m SimpleHTTPServer 3000`,
+but it can also handle streaming media (via `Content-Range` header)
+and accepts file uploads (very safely, see below).
 
 Installation
 ===
